@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 
-const index = () => {
+const Index = () => {
 
     const router = useRouter()
     const { blogId } = router.query
@@ -12,4 +12,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index

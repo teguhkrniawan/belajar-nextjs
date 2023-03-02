@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 
-const comment = () => {
+const Comment = () => {
 
     const router = useRouter()
     const { blogId, comment } = router.query
@@ -12,4 +12,4 @@ const comment = () => {
     )
 }
 
-export default comment
+export default Comment
